@@ -1,0 +1,91 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+.DS_Store
+chromedriver.log
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/QTripModule2.iml
+app/chromedriver.log
+app/bin/test/qtriptest/DP.class
+app/bin/test/qtriptest/DriverFactory.class
+app/bin/test/qtriptest/pages/AdventurePage.class
+app/bin/test/qtriptest/pages/HomePage.class
+app/bin/test/qtriptest/tests/testCase_01.class
+test-output/bullet_point.png
+test-output/collapseall.gif
+test-output/emailable-report.html
+test-output/failed.png
+test-output/index.html
+test-output/jquery-3.6.0.min.js
+test-output/navigator-bullet.png
+test-output/passed.png
+test-output/skipped.png
+test-output/testng-reports.css
+test-output/testng-reports.js
+test-output/testng-reports1.css
+test-output/testng-reports2.js
+test-output/testng.css
+test-output/junitreports/TEST-qtriptest.tests.testCase_01.xml
+test-output/junitreports/TEST-qtriptest.tests.testCase_02.xml
+test-output/junitreports/TEST-qtriptest.tests.testcase_03.xml
+test-output/junitreports/TEST-qtriptest.tests.testcase_04.xml
+test-output/old/index.html
+test-output/old/Tests for QTrip Regression/BookingFlow.properties
+test-output/old/Tests for QTrip Regression/classes.html
+test-output/old/Tests for QTrip Regression/groups.html
+test-output/old/Tests for QTrip Regression/index.html
+test-output/old/Tests for QTrip Regression/LoginFlow.properties
+test-output/old/Tests for QTrip Regression/main.html
+test-output/old/Tests for QTrip Regression/methods-alphabetical.html
+test-output/old/Tests for QTrip Regression/methods-not-run.html
+test-output/old/Tests for QTrip Regression/methods.html
+test-output/old/Tests for QTrip Regression/Reliability.properties
+test-output/old/Tests for QTrip Regression/reporter-output.html
+test-output/old/Tests for QTrip Regression/SearchFlow.properties
+test-output/old/Tests for QTrip Regression/testng.xml.html
+test-output/old/Tests for QTrip Regression/toc.html
+test-output/Tests for QTrip Regression/BookingFlow.html
+test-output/Tests for QTrip Regression/BookingFlow.xml
+test-output/Tests for QTrip Regression/LoginFlow.html
+test-output/Tests for QTrip Regression/LoginFlow.xml
+test-output/Tests for QTrip Regression/Reliability.html
+test-output/Tests for QTrip Regression/Reliability.xml
+test-output/Tests for QTrip Regression/SearchFlow.html
+test-output/Tests for QTrip Regression/SearchFlow.xml
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/QTripModule2.iml
+app/chromedriver.log
+app/bin/test/qtriptest/DP.class
+app/bin/test/qtriptest/DriverFactory.class
+app/bin/test/qtriptest/pages/AdventurePage.class
+app/bin/test/qtriptest/pages/HomePage.class
+app/bin/test/qtriptest/tests/testCase_01.class
+app/bin/test/qtriptest/.j2uml/j2uml.txt
+app/src/test/java/qtriptest/.j2uml/j2uml.txt
+app/bin/test/qtriptest/SeleniumWrapper.class
+app/bin/test/qtriptest/pages/AdventureDetailsPage.class
+app/bin/test/qtriptest/pages/HistoryPage.class
+app/bin/test/qtriptest/pages/HistoryPage$ReservationHistory.class
+app/bin/test/qtriptest/pages/LoginPage.class
+app/bin/test/qtriptest/pages/RegisterPage.class
+app/bin/test/qtriptest/tests/testCase_02.class
+app/bin/test/qtriptest/tests/testcase_03.class
+app/bin/test/qtriptest/tests/testcase_04.class
+test-output/testng-failed.xml
+test-output/testng-results.xml
+test-output/Tests for QTrip Regression/testng-failed.xml
+app/bin/test/qtriptest/pages/AdventureDetailsPage.class
+app/bin/test/qtriptest/pages/HistoryPage.class
+app/bin/test/qtriptest/pages/HistoryPage$ReservationHistory.class
+app/bin/test/qtriptest/pages/LoginPage.class
+app/bin/test/qtriptest/pages/RegisterPage.class
+app/bin/test/qtriptest/tests/testCase_02.class
+app/bin/test/qtriptest/tests/testcase_03.class
+app/bin/test/qtriptest/tests/testcase_04.class
+test-output/testng-results.xml

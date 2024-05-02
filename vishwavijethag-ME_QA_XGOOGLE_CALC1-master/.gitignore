@@ -1,0 +1,5 @@
+.vscode/
+bin/
+.gradle/
+build/
+data/

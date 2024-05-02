@@ -1,0 +1,225 @@
+{
+"instruction_set":[
+  {
+    "description": " Verify the Homepage URL and Initial Display.Navigate to google website",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "Navigate"
+      },
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "google"
+      }
+    ],
+    "error_out": "Navigate to google website",
+    "hint": "Ensure that you are on the google homepage with the correct URL."
+  },
+  {
+    "description": "TestCase 1: Verify the Homepage URL and Initial Display.Get the URL of the page and verify",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetUrl"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "google"
+      }
+    ],
+    "error_out": "Get the URL of the page and verify",
+    "hint": "Ensure that you check the url of the page contains google"
+  },
+  {
+    "description": "TestCase 1: Verify the Homepage URL and Initial Display.Verify the initial display is zero",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "0"
+      }
+    ],
+    "error_out": "Verify the initial display is zero",
+    "hint": "Ensure that the initial value displayed is equal to 0"
+  },
+  {
+    "description": "TestCase 2: Verify Addition and Subtraction Operation.Click on 5, 7 and plus element",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on 5, 7 and plus element",
+    "hint": "Ensure that you are clicking on the 5, 7 and plus button "
+  },
+  {
+    "description": "TestCase 2: Verify Addition and Subtraction Operation.Verify that the result is 12",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "12"
+      }
+    ],
+    "error_out": "Verify that the result is 12",
+    "hint": "Ensure that the result displayed is equal to 12"
+  },
+  {
+    "description": "TestCase 2: Verify Addition and Subtraction Operation.Click on 15, 8 and minus element",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on 15, 8 and minus element",
+    "hint": "Ensure that you are clicking on the 15, 8 and minus button "
+  },
+  {
+    "description": "TestCase 2: Verify Addition and Subtraction Operation.Verify that the result is 7",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "7"
+      }
+    ],
+    "error_out": "Verify that the result is 7",
+    "hint": "Ensure that the result displayed is equal to 7"
+  },
+  {
+    "description": "TestCase 3: Verify the functionality of AC Button and Multiplication Operation.Click on 10, 3 and multiply element",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on 10, 3 and multiply element",
+    "hint": "Ensure that you are clicking on the 15, 8 and minus button "
+  },
+  {
+    "description": "TestCase 3: Verify the functionality of AC Button and Multiplication Operation.Verify that the result is 30",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "30"
+      }
+    ],
+    "error_out": "Verify that the result is 30",
+    "hint": "Ensure that the result displayed is equal to 7"
+  },
+  {
+    "description": "TestCase 3: Verify the functionality of AC Button and Multiplication Operation.Click on the All Clear(AC) button ",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on the All Clear(AC) button ",
+    "hint": "Ensure that you are clicking on AC button"
+  },
+  {
+    "description": "TestCase 3: Verify the functionality of AC Button and Multiplication Operation.Verify the display is zero",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "0"
+      }
+    ],
+    "error_out": "Verify the display is zero",
+    "hint": "Ensure that the value displayed is equal to 0"
+  },
+  {
+    "description": "TestCase 4: Verify Divide Operation.Click on 20, 4 and divide element",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on 20, 4 and divide element",
+    "hint": "Ensure that you are clicking on the 20, 4 and division button "
+  },
+  {
+    "description": "TestCase 4: Verify Divide Operation.Verify that the result is 5",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "5"
+      }
+    ],
+    "error_out": "Verify that the result is 5",
+    "hint": "Ensure that the value displayed is equal to 5"
+  }
+]
+}

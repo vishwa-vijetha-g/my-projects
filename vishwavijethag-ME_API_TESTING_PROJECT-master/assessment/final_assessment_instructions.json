@@ -1,0 +1,40 @@
+{
+    "assesments":[
+        {
+            "assesmentDescription":"Verify that all 4 test cases have passed",
+            "find":".//test-method[@status='PASS']",
+            "expectedCount":4,
+            "errorMessage":"All 4 API test cases havent passed"
+        },
+        {
+            "assesmentDescription":"Verify if API test Group is present",
+            "find":".//group",
+            "expectedCount":1,
+            "errorMessage":"API testing group is present"
+        },
+        {
+            "assesmentDescription":"Verify testCase 1 ",
+            "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_01')]/test-method[@status='PASS']",
+            "expectedCount":1,
+            "errorMessage":"testCase01 Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 2 ",
+            "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_02')]/test-method[@status='PASS']",
+            "expectedCount":1,
+            "errorMessage":"testCase02 Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 3 ",
+            "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_03')]/test-method[@status='PASS']",
+            "expectedCount":1,
+            "errorMessage":"testCase03 Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 4 ",
+            "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_04')]/test-method[@status='PASS']",
+            "expectedCount":1,
+            "errorMessage":"testCase04 Failed"
+        }
+    ]
+}

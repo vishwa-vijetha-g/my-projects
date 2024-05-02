@@ -1,0 +1,276 @@
+{
+"instruction_set":[
+  {
+    "description": "TestCase 1: Verify Make My Trip Homepage URL.Navigate to Make My Trip website",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "Navigate"
+      },
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "makemytrip"
+      }
+    ],
+    "error_out": "Navigate to Make My Trip website",
+    "hint": "TestCase 1: Ensure that you are on the MMT homepage with the correct URL."
+  },
+  {
+    "description": "TestCase 1: Verify Make My Trip Homepage URL.Get the URL of the page and verify",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetUrl"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "makemytrip"
+      }
+    ],
+    "error_out": "Get the URL of the page and verify",
+    "hint": "TestCase 1: Ensure that you check the url of the page contains makemytrip"
+  },
+  {
+    "description": "TestCase 2: Get the details of flight from Bangalore to New Delhi.Select Bangalore as the departure location",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "blr"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Select Bangalore as the departure location",
+    "hint": "TestCase 2: Ensure that you are sending blr as departure location"
+  },
+  {
+    "description": "TestCase 2: Get the details of flight from Bangalore to New Delhi.Select New Delhi as the arrival location",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "del"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Select New Delhi as the arrival location",
+    "hint": "TestCase 2: Ensure that you are sending del as the departure location"
+  },
+  {
+    "description": "TestCase 2: Get the details of flight from Bangalore to New Delhi.Select the Correct Date",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "29"
+      }
+    ],
+    "error_out": "Select the Correct Date",
+    "hint": "TestCase 2: Ensure that your are selecting 29 as the date in the month of travel"
+  },
+  {
+    "description": "TestCase 2: Get the details of flight from Bangalore to New Delhi.Click on the search button",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on the search button",
+    "hint": "TestCase 2: Ensure that you are clicking on the search button "
+  },
+  {
+    "description": "TestCase 2: Get the details of flight from Bangalore to New Delhi.Store the flight price",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "adult"
+      }
+    ],
+    "error_out": "Store the flight price",
+    "hint": "TestCase 2: Ensure that we are storing per adult price for the flight"
+  },
+  {
+    "description": "TestCase 3: Get the details of train from Bangalore to New Delhi.Select Bangalore as the departure location",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ypr"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Select Bangalore as the departure location",
+    "hint": "TestCase 3: Ensure that you are sending ypr as departure location"
+  },
+  {
+    "description": "TestCase 3: Get the details of train from Bangalore to New Delhi.Select New Delhi as the arrival location",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ndls"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Select New Delhi as the arrival location",
+    "hint": "TestCase 3: Ensure that you are sending ndls as the departure location"
+  },
+  {
+    "description": "TestCase 3: Get the details of train from Bangalore to New Delhi.Select the Correct Date",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "29"
+      }
+    ],
+    "error_out": "Select the Correct Date",
+    "hint": "TestCase 3: Ensure that your are selecting 29 as the date in the month of travel"
+  },
+  {
+    "description": "TestCase 3: Get the details of train from Bangalore to New Delhi.Click on the search button",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on the search button",
+    "hint": "TestCase 3: Ensure that you are clicking on the search button "
+  },
+  {
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Select Bangalore as the departure location",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "bangl"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Select Bangalore as the departure location",
+    "hint": "TestCase 4: Ensure that you are sending bangl as departure location"
+  },
+  {
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Select Kathmandu as the arrival location",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "kathma"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Select Kathmandu as the arrival location",
+    "hint": "TestCase 4: Ensure that you are sending kathma as the departure location"
+  },
+  {
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Select the Correct Date",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "29"
+      }
+    ],
+    "error_out": "Select the Correct Date",
+    "hint": "TestCase 4: Ensure that your are selecting 29 as the date in the month of travel"
+  },
+  {
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Click on the search button",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "ClickElement"
+      }
+    ],
+    "error_out": "Click on the search button",
+    "hint": "TestCase 4: Ensure that you are clicking on the search button "
+  },
+  {
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Verify No buses found is displayed",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "No buses found"
+      }
+    ],
+    "error_out": "Verify No buses found is displayed",
+    "hint": "TestCase 4: Ensure that you are verifying that message displayed is equals to No buses found for 29th of next Month"
+  }
+]
+}

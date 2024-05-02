@@ -1,0 +1,70 @@
+{
+    "assesments":[
+        {
+            "assesmentDescription":"Verify if all 10 test cases have passed",
+            "find":".//test-method[contains(@name,'TestCase') and @status='PASS']",
+            "expectedCount":12,
+            "errorMessage":"All 12 test cases havent passed: 4 test cases x 3 repeats"
+        },
+        {
+            "assesmentDescription":"Verify if 4 groups are present",
+            "find":".//group",
+            "expectedCount":4,
+            "errorMessage":"4 group definitions are present"
+        },
+        {
+            "assesmentDescription":"Verify testCase 1 : Iteration 1 ",
+            "find":".//test-method[contains(@name,'TestCase01') and @status='PASS']//value[text()[contains(.,'testuser@gmail.com')] or text()[contains(.,'abc@123')]]",
+            "expectedCount":2,
+            "errorMessage":"testCase01:Dataset1 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 1 : Iteration 2 ",
+            "find":".//test-method[contains(@name,'TestCase01') and @status='PASS']//value[text()[contains(.,'TESTUSER@gmail.com')] or text()[contains(.,'123456.0')]]",
+            "expectedCount":2,
+            "errorMessage":"testCase01:Dataset2 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 1 : Iteration 3 ",
+            "find":".//test-method[contains(@name,'TestCase01') and @status='PASS']//value[text()[contains(.,'123_USER_low@gmail.com')] or text()[contains(.,'QWERTY!!!!')]]",
+            "expectedCount":2,
+            "errorMessage":"testCase01:Dataset3 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 2 : Iteration 1 ",
+            "find":".//test-method[contains(@name,'TestCase02') and @status='PASS']//value[text()[contains(.,'Bengaluru')] or text()[contains(.,'Cycling Routes')]  ]",
+            "expectedCount":2,
+            "errorMessage":"testCase02:Dataset1 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 2 : Iteration 3 ",
+            "find":".//test-method[contains(@name,'TestCase02') and @status='PASS']//value[text()[contains(.,'Goa')] or text()[contains(.,'Party Spots')]  ]",
+            "expectedCount":2,
+            "errorMessage":"testCase02:Dataset3 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 3 : Iteration 1 ",
+            "find":".//test-method[contains(@name,'TestCase03') and @status='PASS']//value[text()[contains(.,'Bengaluru')] or text()[contains(.,'Niaboytown')] or text()[contains(.,'palam')] ]",
+            "expectedCount":3,
+            "errorMessage":"testCase03:Dataset1 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 3 : Iteration 2 ",
+            "find":".//test-method[contains(@name,'TestCase03') and @status='PASS']//value[text()[contains(.,'Grand Ashland')] or text()[contains(.,'biden')] or text()[contains(.,'Singapore')] ]",
+            "expectedCount":3,
+            "errorMessage":"testCase03:Dataset2 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 4 : Iteration 1 ",
+            "find":".//test-method[contains(@name,'TestCase04') and @status='PASS']//value[text()[contains(.,'Bengaluru')] and text()[contains(.,'Niaboytown')] and text()[contains(.,'Chicky')] ]",
+            "expectedCount":2,
+            "errorMessage":"testCase04:Dataset1 validation Failed"
+        },
+        {
+            "assesmentDescription":"Verify testCase 4 : Iteration 3 ",
+            "find":".//test-method[contains(@name,'TestCase04') and @status='PASS']//value[text()[contains(.,'Goa')] and text()[contains(.,'Perthby')] and text()[contains(.,'Chicky')] ]",
+            "expectedCount":1,
+            "errorMessage":"testCase04:Dataset3 validation Failed"
+        }
+    ]
+}

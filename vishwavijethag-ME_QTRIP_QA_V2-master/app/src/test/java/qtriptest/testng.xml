@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite">
+    <test name = "Test Case 01">
+        <classes>
+            <class name = "qtriptest.tests.testBeforeAfter"/>
+            <class name = "qtriptest.tests.testCase_01"/>
+        </classes>
+    </test>
+    <test name = "Test Case 02">
+        <classes>
+            <class name = "qtriptest.tests.testBeforeAfter"/>
+            <class name = "qtriptest.tests.testCase_02"/>
+        </classes>
+    </test>
+    <test name = "Test Case 03">
+        <classes>
+            <class name = "qtriptest.tests.testBeforeAfter"/>
+            <class name = "qtriptest.tests.testCase_03"/>
+        </classes>
+    </test>
+    <test name = "Test Case 04">
+        <classes>
+            <class name = "qtriptest.tests.testBeforeAfter"/>
+            <class name = "qtriptest.tests.testCase_04"/>
+        </classes>
+    </test>
+</suite>

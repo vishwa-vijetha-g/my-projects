@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T00:40:56 IST" name="API Testing Project Suite" finished-at="2024-03-27T00:41:10 IST" duration-ms="14421">
+    <groups>
+      <group name="API Tests">
+        <method signature="testCase_API_01.testCaseAPI01()[pri:0, instance:qtriptest.APITests.testCase_API_01@5340477f]" name="testCaseAPI01" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_02.testCaseAPI02()[pri:0, instance:qtriptest.APITests.testCase_API_02@6f43c82]" name="testCaseAPI02" class="qtriptest.APITests.testCase_API_02"/>
+        <method signature="testCase_API_03.testCaseAPI03()[pri:0, instance:qtriptest.APITests.testCase_API_03@4f0f2942]" name="testCaseAPI03" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_04.testCaseAPI04()[pri:0, instance:qtriptest.APITests.testCase_API_04@2657d4dd]" name="testCaseAPI04" class="qtriptest.APITests.testCase_API_04"/>
+      </group> <!-- API Tests -->
+    </groups>
+    <test started-at="2024-03-27T00:40:56 IST" name="API Testing Project Test" finished-at="2024-03-27T00:41:10 IST" duration-ms="14421">
+      <class name="qtriptest.APITests.testCase_API_01">
+        <test-method signature="testCaseAPI01()[pri:0, instance:qtriptest.APITests.testCase_API_01@5340477f]" started-at="2024-03-27T00:41:08 IST" name="testCaseAPI01" finished-at="2024-03-27T00:41:10 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAPI01 -->
+      </class> <!-- qtriptest.APITests.testCase_API_01 -->
+      <class name="qtriptest.APITests.testCase_API_02">
+        <test-method signature="testCaseAPI02()[pri:0, instance:qtriptest.APITests.testCase_API_02@6f43c82]" started-at="2024-03-27T00:40:56 IST" name="testCaseAPI02" finished-at="2024-03-27T00:41:01 IST" duration-ms="5157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAPI02 -->
+      </class> <!-- qtriptest.APITests.testCase_API_02 -->
+      <class name="qtriptest.APITests.testCase_API_03">
+        <test-method signature="testCaseAPI03()[pri:0, instance:qtriptest.APITests.testCase_API_03@4f0f2942]" started-at="2024-03-27T00:41:01 IST" name="testCaseAPI03" finished-at="2024-03-27T00:41:06 IST" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAPI03 -->
+      </class> <!-- qtriptest.APITests.testCase_API_03 -->
+      <class name="qtriptest.APITests.testCase_API_04">
+        <test-method signature="testCaseAPI04()[pri:0, instance:qtriptest.APITests.testCase_API_04@2657d4dd]" started-at="2024-03-27T00:41:06 IST" name="testCaseAPI04" finished-at="2024-03-27T00:41:08 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAPI04 -->
+      </class> <!-- qtriptest.APITests.testCase_API_04 -->
+    </test> <!-- API Testing Project Test -->
+  </suite> <!-- API Testing Project Suite -->
+</testng-results>
